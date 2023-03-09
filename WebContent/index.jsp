@@ -12,7 +12,6 @@
 
  <script>
  $( document ).ready(function() {
-  
 	$("#reset").click(function(){
 		 $("#first").val("");
 		 $("#second").val("");
@@ -59,7 +58,7 @@ String error = (String) request.getAttribute("error");
 <a href="<%=request.getContextPath()%>/index.jsp">
 <img style="position: absolute;top:35px;width:50px;" src="./imgs/sum.png"></a>
 <form method="post" action="connection" name="DatabaseConnection">
- Database credentials:<br>
+ Database credentials (BRANCH 1S):<br>
  <br>
  <label for="login">Login </label><input id="login" type="text" name="login" value="<%=login %>" required/><br>
  <br>
